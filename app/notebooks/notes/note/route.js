@@ -6,7 +6,7 @@ export default Ember.Route.extend({
   },
   actions: {
     close() {
-      this.transitionTo('notebooks.note')
+      this.transitionTo('notebooks.note');
     }
   }
 });
